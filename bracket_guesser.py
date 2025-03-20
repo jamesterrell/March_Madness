@@ -8,7 +8,7 @@ r64 = pl.read_csv("bracket.csv")
 simulations = []
 
 # Run the tournament simulation 50,000 times
-for i in range(50_000):  # Adjust the loop count as needed
+for i in range(100_000):  # Adjust the loop count as needed
     r32 = play_round(r64)
     r16 = play_round(r32)
     r8 = play_round(r16)
